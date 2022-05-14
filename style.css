@@ -9,8 +9,8 @@ body {
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    background: #939393;
-    position: relative;
+    background: url(./img/champions-league.jpg);
+    opacity: 1;
 }
 
 .container {
