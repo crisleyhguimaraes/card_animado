@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>card</title>
+</head>
+<body>    
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2></h2>
+                <h3>Cristiano Ronaldo</h3>
+                <p>
+                     <img src="https://img.uefa.com/imgml/TP/players/1/2014/324x324/63706.jpg?imwidth=36" alt="C R7" >
+                <a href="#">Mais Info</a>
+                </p>
+            </div>            
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2></h2>
+                <h3>Kevin De Bruyne</h3>
+                <p>
+                    <img src="https://img.uefa.com/imgml/TP/players/1/2022/324x324/250008901.jpg?imwidth=36" alt="K D B" >
+                <a href="#">Mais Info</a>
+                </p>
+            </div>            
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h2></h2>
+                <h3>Kylian Mbappé</h3>
+                <p>
+                    <img src="https://img.uefa.com/imgml/TP/players/1/2022/324x324/250076574.jpg" alt="Mbappe" >
+                <a href="#">Mais Info</a>
+                </p>
+            </div>            
+        </div>
+    </div>
+
+    <script type="text/javascript" src="vanilla-tilt.babel.min.js"></script>
+    <script>
+       VanillaTilt.init(document.querySelectorAll(".card"),{
+           max:25,
+           speed: 400,
+           glare: true,
+           "max-glare": 1,
+       });
+    </script>
+
+</body>
+</html>
